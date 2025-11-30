@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+nav{
+    text-decoration: none;
+    list-style-type: none; 
+    background-color: rgb(134, 109, 140);
+    border-radius: 50px 0px 50px 0px;
+    margin: auto;
+    margin-top: -45px;
+    width: 590px;
+    height: 50px;
+    border-style: ridge;
+    border-color: rgba(113, 94, 118, 0.947);
+}
+li{
+    transition: 0.3s;
+    display: inline-block;
+    padding: 12px 40px 10px 40px;
+    font-size: 10px;
+    height: 26px;
+    border-radius: 50px 0px 50px 0px;
+}
+li:hover{
+    background-color: rgb(94, 84, 162);
+    border-radius: 50px 0px 50px 0px;
+
+    transform: translateX(9px) translateY(-7px);
+}
+li a{
+    text-decoration: none;
+    color: rgb(28, 182, 248);
+    text-shadow: 3px 3px rgb(27, 24, 24);
+    padding-left:1.5px;
+    font-size: 23px; 
+}
+li a:hover{
+    color: rgb(222, 255, 6);
+}
+.ul{
+    background-color: rgb(50, 59, 91);
+    width: 1308px;
+    height: 100px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.in{
+       margin-left:1060px ;
+       margin-right: 10px; 
+       transition: 0.3s;
+}
+.in:hover{
+    border: 2px;
+    border-style: double;
+    border-color: rgb(191, 255, 185);
+    cursor: pointer;
+    color: antiquewhite;
+    transform: translateY(10px);
+}
+.h{
+    color: rgb(28, 182, 248);
+    margin: -10px 500px 0px 523px ;
+    text-shadow: 3px 3px rgb(107, 105, 113);
+}
+.q{
+    background-color: rgb(60, 49, 58);
+    width: 700px;
+    height: 500px;
+    border-radius: 30px 30px 30px 30px;
+    border-style: none;
+    background-size: cover;
+    margin: 30px  auto auto auto;
+    overflow: hidden;
+    }
+
+form{
+display: block;
+box-sizing: border-box;
+padding: 40px;
+width: 100%;
+height: 100%;
+backdrop-filter: brightness(40%);
+flex-direction: column ;
+display: flex;
+gap: 5px;
+}
+.h1{
+font-style: oblique;
+font-weight: normal;
+font-size: 50px;
+text-shadow: 0px 0px 2px rgb(0,0,0,0.5 );
+margin-bottom: 40px;
+margin-left: 225px;
+margin-top: -10px;
+color: rgb(218, 14, 75);
+text-shadow: 2px 2px rgb(16, 123, 177);
+letter-spacing: 7px;
+}
+.label {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgba(255, 255, 255, 0.8);
+text-shadow: 2px 2px rgb(177, 16, 16);
+font-size: 20px;
+letter-spacing: 3px;
+padding-left: 10px;
+}
+.inp {
+background: rgba(255, 255, 255, 0.3);
+height:40px;
+border-radius: 10px;
+padding: 0px 20px;
+border: none;
+margin-bottom: 20px;
+color: white;
+transition: 0.5s;
+}
+.inp:focus{
+    background-color: cornflowerblue;
+}
+.button {
+background: rgb(45, 126, 231);
+width: 300px;
+height: 40px;
+border-radius: 40px;
+border: none;
+margin-top: 20px;
+margin-left: 160px;
+padding-right:11px ;
+padding-bottom:0px ;
+color: white;
+font-size: 20px;
+font-style: italic;
+letter-spacing: 2px;
+transition: 0.5s;
+}
+.button:hover{
+background-color: rgb(45, 126, 231); 
+border-radius: 40px 40px 40px 40px;
+transform:  scale(1.1);
+cursor: pointer;
+}
+.button2 {
+background: rgb(45, 44, 44);
+width: 300px;
+height: 40px;
+border-radius: 40px;
+border-style: solid;
+border-color: rgb(45, 126, 231);
+margin-top: 20px;
+margin-left: 160px;
+padding-right:11px ;
+padding-bottom:0px ;
+box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+color:rgb(45, 126, 231);
+font-size: 20px;
+font-style: italic;
+transition: 0.5s;
+}
+.button2:hover{
+background-color: rgb(254, 254, 254);
+border-radius: 40px 40px 40px 40px;
+transform:  scale(1.1);
+cursor: pointer;
+}
+</style>
+</head>
+<body style="background-color: rgba(61, 61, 82, 0.875);">
+    <ul class="ul">
+        
+        <button class="in" style="background-color: rgb(67, 206, 67); border-radius: 6px; width: 90px; height: 30px;" >Install App</button>
+        <label for="languge" style="color: rgb(255, 255, 255); font-size: 17px;">language <label >
+<select style="cursor: pointer;">
+    <option>English</option>
+    <option>Arabic</option>
+    <option>Russian</option>
+    <option>German</option>
+    <option>Spanish</option>
+    <option>Turkish</option>
+</select>
+<br>
+<h1 class="h">App For Games</h1>
+    </ul>
+     <nav>
+        <li ><a href="TheProject.html">Home</a></li>
+        <li><a href="TheProject3.html"> Contact</a></li>
+        <li><a href="TheProject4.html"> Log in</a></li>
+        <li><a href="TheProject2.html">About</a></li>
+     </nav>
+
+<div class="q">
+<form>
+
+    <h1 class="h1"> Login </h1>
+
+    <label class="label" for="UserName">User name or email</label>
+    <input class="inp" type="text" name="User Name">
+    
+    <label class="label" for="Password">Password</label>
+    <input class="inp" type="Password" name="Password" maxlength="10" minlength="5">
+
+<button class="button" type="submit">Log in</button>
+<br>
+<a href="#" style="color: aliceblue; font-size: 20px;margin-left: 223px; text-decoration: none;">Forgotten Password?
+</a>
+<button class="button2" type="button">Create new account</button>
+</form>
+</div>
+
+<br><br>
+
+
+<hr style="width: 1348px; margin-left: -10px;">
+<br>
+<hr style="width:860px;">
+<p style="color: rgb(0, 0, 0); margin-left: 250px;">© 2024 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.<br>
+    VAT included in all prices where applicable.   Privacy Policy   |   Legal   |   App Subscriber Agreement   |   Refunds   |   Cookies</p>
+<hr style="width:860px;">
+
+<p id="p" style="font-size: 22px; margin-left: 300px;">About Valve | Jobs | Steamworks | App Distribution | Support | Gift Cards | <img src="images/f.png" width="30px" height="30px" style="margin-bottom: -8px; "> @App</p>
+
+
+</body>
+</html>
